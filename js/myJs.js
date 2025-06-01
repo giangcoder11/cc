@@ -35,7 +35,7 @@ $(document).ready(function () {
     Swal.fire({
       title: textConfig.text1,
       text: textConfig.text2,
-      imageUrl: "https://www.pinterest.com/pin/1090223022298882968#imgViewer",
+      imageUrl: url("imf/IMG_0965.jpeg"),
       imageWidth: 300,
       imageHeight: 300,
       background: '#fff url("img/iput-bg.jpg")',
