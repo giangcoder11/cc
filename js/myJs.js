@@ -7,8 +7,8 @@ const textConfig = {
   text6: "Yêu ơi là yêu <3",
   text7: "lí do cậu thích tớ đi :vvvv",
   text8: "Gửi cho tớ <3",
-  text9: "Vì cậu đẹp try vlllll",
-  text10: "Tớ biết mà ^^ Yêu cậu 300.000",
+  text9: "Vì cậu là người tui iuu ❤️",
+  text10: "Tớ biết mà ^^ Yêu khắn vã òn😘",
   text11:
     "Tối nay tớ qua đón cậu đi chơi nhaa :v Còn giờ thì chờ gì nữa mà ko inbox cho tớ đi nàooo",
   text12: "Okii lunn <3",
@@ -35,7 +35,7 @@ $(document).ready(function () {
     Swal.fire({
       title: textConfig.text1,
       text: textConfig.text2,
-      imageUrl: "img/cuteCat.jpg",
+      imageUrl: "https://www.pinterest.com/pin/1090223022298882968#imgViewer",
       imageWidth: 300,
       imageHeight: 300,
       background: '#fff url("img/iput-bg.jpg")',
@@ -47,7 +47,7 @@ $(document).ready(function () {
 
   // switch button position
   function switchButton() {
-    var audio = new Audio("sound/duck.mp3");
+    var audio = new Audio("https://www.nhaccuatui.com/bai-hat/phep-mau-maydays-minh-toc-lam.AHgR9rMS5pYw.html?source=app&from=share&share_dest=copy");
     audio.play();
     var leftNo = $("#no").css("left");
     var topNO = $("#no").css("top");
@@ -58,9 +58,9 @@ $(document).ready(function () {
     $("#yes").css("left", leftNo);
     $("#yes").css("top", topNO);
   }
-  // move random button póition
+  // move random button position
   function moveButton() {
-    var audio = new Audio("sound/Swish1.mp3");
+    var audio = new Audio("https://www.nhaccuatui.com/bai-hat/phep-mau-maydays-minh-toc-lam.AHgR9rMS5pYw.html?source=app&from=share&share_dest=copy");
     audio.play();
     if (screen.width <= 600) {
       var x = Math.random() * 300;
