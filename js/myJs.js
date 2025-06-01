@@ -47,7 +47,7 @@ $(document).ready(function () {
 
   // switch button position
   function switchButton() {
-    var audio = new Audio("sound/20250601_122355121.m4r");
+    var audio = new Audio("sound/tick.mp3");
     audio.play();
     var leftNo = $("#no").css("left");
     var topNO = $("#no").css("top");
@@ -60,7 +60,7 @@ $(document).ready(function () {
   }
   // move random button position
   function moveButton() {
-    var audio = new Audio("sound/20250601_122355121.m4r");
+    var audio = new Audio("sound/tick.mp3");
     audio.play();
     if (screen.width <= 600) {
       var x = Math.random() * 300;
@@ -107,7 +107,7 @@ $(document).ready(function () {
 
   // show popup
   $("#yes").click(function () {
-    var audio = new Audio("sound/tick.mp3");
+    var audio = new Audio("sound/20250601_122355121.m4r");
     audio.play();
     Swal.fire({
       title: textConfig.text7,
