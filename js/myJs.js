@@ -47,7 +47,7 @@ $(document).ready(function () {
 
   // switch button position
   function switchButton() {
-    var audio = new Audio("https://www.nhaccuatui.com/bai-hat/phep-mau-maydays-minh-toc-lam.AHgR9rMS5pYw.html?source=app&from=share&share_dest=copy");
+    var audio = new Audio("sound/20250601_121328464.m4r");
     audio.play();
     var leftNo = $("#no").css("left");
     var topNO = $("#no").css("top");
@@ -60,7 +60,7 @@ $(document).ready(function () {
   }
   // move random button position
   function moveButton() {
-    var audio = new Audio("https://www.nhaccuatui.com/bai-hat/phep-mau-maydays-minh-toc-lam.AHgR9rMS5pYw.html?source=app&from=share&share_dest=copy");
+    var audio = new Audio("sound/20250601_121328464.m4r");
     audio.play();
     if (screen.width <= 600) {
       var x = Math.random() * 300;
@@ -107,7 +107,7 @@ $(document).ready(function () {
 
   // show popup
   $("#yes").click(function () {
-    var audio = new Audio("sound/tick.mp3");
+    var audio = new Audio("sound/20250601_121328464.m4r");
     audio.play();
     Swal.fire({
       title: textConfig.text7,
@@ -138,7 +138,7 @@ $(document).ready(function () {
           text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
           onClose: () => {
-            window.location = "https://www.facebook.com/share/16JTpn92V5/?mibextid=wwXIfr";
+            window.location = "https://www.facebook.com/longgiang208hihi";
           },
         });
       }
