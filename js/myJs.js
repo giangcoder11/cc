@@ -107,7 +107,7 @@ $(document).ready(function () {
 
   // show popup
   $("#yes").click(function () {
-    var audio = new Audio("sound/20250601_122355121.m4r");
+    var audio = new Audio("sound/tick.mp3");
     audio.play();
     Swal.fire({
       title: textConfig.text7,
