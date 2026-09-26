@@ -36,8 +36,8 @@ $(document).ready(function () {
       title: textConfig.text1,
       text: textConfig.text2,
       imageUrl:"img/2b13a303-ce89-4e0d-ab3f-6c5b544e1cc8.jpg",
-      imageWidth: auto,
-      imageHeight: auto,
+      imageWidth: "auto",
+      imageHeight: "auto",
       background: '#fff url("img/iput-bg.jpg")',
       imageAlt: "Custom image",
     }).then(function () {
